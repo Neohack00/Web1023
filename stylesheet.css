@@ -1,2 +1,16 @@
 
 
+header{
+    background-color: deepskyblue;
+    padding: 60px;
+    color: white;
+    text-align: center;
+    font-size: 50px; 
+    
+}
+#Profileimg{
+    float: right;
+    width: 500px;
+    height: 500px;
+
+}
