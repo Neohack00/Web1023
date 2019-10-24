@@ -1,16 +1,69 @@
 
 
+
 header{
-    background-color: deepskyblue;
+    /* background-color: deepskyblue; */
+    
     padding: 60px;
     color: white;
     text-align: center;
     font-size: 50px; 
+    border: 10px solid black;
+    
+}
+
+header h1{
+    background-color:black;
     
 }
 #Profileimg{
     float: right;
     width: 500px;
     height: 500px;
+}
+.content{
+    background:gray;
+    background-position-x: center;
+    background-position-y: top;;
+    background-repeat: no-repeat;
+    background-size: auto;
+    float: inline-start; 
+}
 
+.side_column{
+    display: block ;
+    width: 19%;
+    opacity: 30% ;
+    height: 100%;
+    padding: 10px;
+    position: static;
+    background-color: gray;
+    
+}
+#right_column{
+    float: right ;
+
+}
+#left_column{
+    float: left;
+}
+.main_column{
+    float: left;
+    /* background: white; */
+    width: 57%;
+    display: block;
+    position: relative;
+    padding: 10px white;
+    background-origin: padding-box 10px;
+    border: 5px solid black;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+footer{
+    align-content: center;
+    border: 5px solid black;
 }
